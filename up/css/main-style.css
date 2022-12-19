@@ -230,6 +230,10 @@ input[type=submit] {
     width: 100%;
     align-self: center;
   }
+  .header__nav--hamburger .line-1-toggled {
+    transform: rotate(45deg) translateX(-0.5rem) translateY(1rem);
+    width: 50%;
+  }
   .header__hero--tickets-link {
     width: 70%;
   }
