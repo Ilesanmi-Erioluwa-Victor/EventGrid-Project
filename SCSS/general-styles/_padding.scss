@@ -11,11 +11,11 @@
 // c == customised
 
 $pad-d-v: (
-    "pad-d-l-v": cal(2rem + 12vh),
-    "pad-d-mc-v": cal(1rem + 8vh),
-    "pad-d-m-v": cal(1rem + 6vh),
-    "pad-d-sc-v": cal(1rem + 4vh),
-    "pad-d-s-v": cal(1rem + 1vh),
+    "pad-d-l-v": calc(2rem + 12vh),
+    "pad-d-mc-v": calc(1rem + 8vh),
+    "pad-d-m-v": calc(1rem + 6vh),
+    "pad-d-sc-v": calc(1rem + 4vh),
+    "pad-d-s-v": calc(1rem + 1vh),
 );
 
 @function padding-d-v($padd-dv) {
@@ -23,11 +23,11 @@ $pad-d-v: (
 }
 
 $pad-d-h: (
-    "pad-d-l-h": cal(2rem + 12vw),
-    "pad-d-mc-h": cal(1rem + 8vw),
-    "pad-d-m-h": cal(1rem + 6vh),
-    "pad-d-sc-h": cal(1rem + 4vh),
-    "pad-d-xs-h": cal(1rem + 1vh),
+    "pad-d-l-h": calc(2rem + 12vw),
+    "pad-d-mc-h": calc(1rem + 8vw),
+    "pad-d-m-h": calc(1rem + 6vh),
+    "pad-d-sc-h": calc(1rem + 4vh),
+    "pad-d-xs-h": calc(1rem + 1vh),
 );
 
 @function padding-d-h($padd-dh) {

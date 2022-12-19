@@ -1,0 +1,21 @@
+// fs  == font-size
+// fw == font-weight
+
+// d == dynamic
+// st == static
+
+// l == large
+// m == medium
+// s == small
+// xs == extra small
+// c == customised
+
+
+$fs-d : (
+  "lc" : calc(3rem + 3.5vw),
+  "l" : calc(2rem + 3vw),
+  "mc" : calc(2rem + 2.5vw),
+  "m": calc(1rem + 2vw),
+  "sc" : calc(1rem + 1.5vw),
+  "s" : calc(1rem + 1vw)
+)
