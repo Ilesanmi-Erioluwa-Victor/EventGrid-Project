@@ -1,0 +1,10 @@
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+}
+
+a, input[type="submit"] {
+    text-decoration: none;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease-in-out;
+}
