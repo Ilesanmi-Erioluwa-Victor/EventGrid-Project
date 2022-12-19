@@ -197,4 +197,20 @@ input[type=submit] {
     transition: all 0.8s ease-in-out;
     z-index: 10;
   }
+  .header__nav .display-nav {
+    transform: translateX(-100rem) rotate(-0.5turn);
+  }
+  .header__nav--hamburger {
+    position: fixed;
+    top: 2.8rem;
+    right: 3rem;
+    cursor: pointer;
+    width: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1rem;
+    row-gap: 0.5rem;
+    background-image: linear-gradient(45deg, hsla(253deg, 82%, 42%, 0.9), hsla(327deg, 97%, 48%, 0.7));
+  }
 }/*# sourceMappingURL=main-style.css.map */
