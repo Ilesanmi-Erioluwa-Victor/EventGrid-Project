@@ -83,7 +83,7 @@
     &--title {
         font-size: type.font-size-d(m);
         font-weight: type.font-weight(black-fw);
-
+         line-height: 1.2;
         span {
             display : block;
         }
@@ -94,7 +94,13 @@
     }
 
     &--tickets-link {
-        
+        background-color: clrs.color-theme("2");
+        width : 50%;
+        margin: auto;
+   
+        &:hover {
+            background-color: clrs.color-theme("3");
+        }
     }
   }
 

@@ -141,10 +141,19 @@ input[type=submit] {
 .header__hero--title {
   font-size: calc(1rem + 2vw);
   font-weight: 900;
+  line-height: 1.2;
 }
 .header__hero--title span {
   display: block;
 }
 .header__hero--para {
   color: hsl(0deg, 0%, 100%);
+}
+.header__hero--tickets-link {
+  background-color: hsl(327deg, 97%, 48%);
+  width: 50%;
+  margin: auto;
+}
+.header__hero--tickets-link:hover {
+  background-color: hsl(253deg, 82%, 42%);
 }/*# sourceMappingURL=main-style.css.map */
