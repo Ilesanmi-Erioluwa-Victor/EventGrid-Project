@@ -22,7 +22,26 @@
    gap : 2rem;
 
    &--logo {
-   width: 5rem;
+   width: 8rem;
+
+   img {
+    height: 75%;
+    width : 75%;
+   }
+
+   }
+
+   &--links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    &__link {
+        color: clrs.color-link("4");
+        font-size: type.font-size-st(sc);
+        font-weight: type.font-weight(bold);
+    }
    }
 
   }

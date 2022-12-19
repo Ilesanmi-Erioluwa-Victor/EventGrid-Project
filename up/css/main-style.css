@@ -76,5 +76,20 @@ textarea {
   gap: 2rem;
 }
 .header__nav--logo {
-  width: 5rem;
+  width: 8rem;
+}
+.header__nav--logo img {
+  height: 75%;
+  width: 75%;
+}
+.header__nav--links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.header__nav--links__link {
+  color: hsl(238deg, 50%, 13%);
+  font-size: 1.5rem;
+  font-weight: 700;
 }/*# sourceMappingURL=main-style.css.map */
