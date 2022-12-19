@@ -46,4 +46,8 @@ textarea {
 
 .overall-layout {
   grid-column: container-start/container-end;
+}
+
+.header {
+  display: flex;
 }/*# sourceMappingURL=main-style.css.map */
