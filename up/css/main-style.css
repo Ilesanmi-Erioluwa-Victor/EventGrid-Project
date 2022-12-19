@@ -38,6 +38,16 @@ textarea {
   justify-content: center;
 }
 
+.overall-layout {
+  grid-column: container-start/container-end;
+}
+
 h2 {
   font-size: 3rem;
+}
+
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }/*# sourceMappingURL=main-style.css.map */
