@@ -1,9 +1,41 @@
 @use "../general-styles/padding" as pad;
-
+@use "../general-styles/gradients" as grad;
 
 @media screen and (max-width: 600px){
     // -------------------------------Utility class
     .padd {
-        padding: pad.padding-d-v(mc) pad.padding-d-h(mc);
+        padding: pad.padding-d-v(sc) pad.padding-d-h(s);
     }
+
+    // -------------------------------Header
+   .header__nav {
+    flex-direction: column;
+    align-items: flex-start;
+
+    &--logo {
+        align-self: stretch;
+    }
+
+    &--cta {
+        align-self: center;
+    }
+
+    &--links {
+        flex-direction: column;
+        width: 30%;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+
+        background-image: grad.gradient(gradient-primary);
+        padding: pad.padding-d-v(l) pad.padding-d-h(l);
+        transform: translateX(-100rem) rotate(-0.5turn);
+        transition: all 0.8s ease-in-out;
+        z-index: 10;
+    }
+
+    .
+   }
 }
