@@ -1,6 +1,8 @@
 @use "../general-styles/padding" as pad;
 @use "../general-styles/gradients" as grad;
 @use "../general-styles/colors" as clrs;
+@use "../general-styles/typography" as type;
+
 
 @media screen and (max-width: 600px){
     // -------------------------------Utility class
@@ -38,7 +40,7 @@
     }
 
     .display-nav {
-        transform: translateX(-100rem) rotate(-0.5turn);
+        transform: translateX(0) rotate(0);
     }
 
     &--hamburger {
@@ -82,13 +84,18 @@
 
                   //   js toggle
                   .line-2-toggled {
-                      transform: rotate(45deg) translateX(-0.4rem) translateY(-0.2rem);
+                      transform: rotate(-45deg) translateX(0.4rem) translateY(-0.2rem);
                       width: 50%;
                   }
     }
    }
 
+   .header__hero {
+    &--location {
+        font-size: type.font-size-st(s);
+    }
+   }
    .header__hero--tickets-link {
-    width: 70%;
+    width: 100%;
    }
 }

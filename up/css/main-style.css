@@ -198,7 +198,7 @@ input[type=submit] {
     z-index: 10;
   }
   .header__nav .display-nav {
-    transform: translateX(-100rem) rotate(-0.5turn);
+    transform: translateX(0) rotate(0);
   }
   .header__nav--hamburger {
     position: fixed;
@@ -235,10 +235,13 @@ input[type=submit] {
     width: 50%;
   }
   .header__nav--hamburger .line-2-toggled {
-    transform: rotate(45deg) translateX(-0.4rem) translateY(-0.2rem);
+    transform: rotate(-45deg) translateX(0.4rem) translateY(-0.2rem);
     width: 50%;
   }
+  .header__hero--location {
+    font-size: 1rem;
+  }
   .header__hero--tickets-link {
-    width: 70%;
+    width: 100%;
   }
 }/*# sourceMappingURL=main-style.css.map */
