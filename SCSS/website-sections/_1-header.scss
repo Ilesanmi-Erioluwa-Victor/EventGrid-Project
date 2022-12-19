@@ -2,7 +2,12 @@
 @use "../general-styles/padding" as pad;
 @use "../general-styles/typography" as type;
 
-// .header {
-//     display: flex;
-//     flex-direction: column;
-// }
+.header {
+  background-image: url("../images/resume.svg");
+  background-position: center;
+  background-repeat : no-repeat;
+  background-size : cover;
+  padding-bottom: calc(pad.padding-d-v(l) + pad.padding-d-v(m));
+
+  gap : calc(4rem + 4vw)
+}

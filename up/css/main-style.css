@@ -57,4 +57,13 @@ textarea {
 
 .padd {
   padding: calc(1rem + 8vh) calc(1rem + 8vw);
+}
+
+.header {
+  background-image: url("../images/resume.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: calc(2rem + 12vh + 1rem + 6vh);
+  gap: calc(4rem + 4vw);
 }/*# sourceMappingURL=main-style.css.map */
