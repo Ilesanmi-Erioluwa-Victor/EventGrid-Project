@@ -32,6 +32,11 @@ textarea {
   font-size: 62.5%;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: [container-start] repeat(12, minmax(min-content, 12.5rem));
+}
+
 h2 {
   font-size: 3rem;
 }/*# sourceMappingURL=main-style.css.map */
