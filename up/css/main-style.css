@@ -28,6 +28,10 @@ textarea {
   border-radius: 0.5rem;
 }
 
+:root {
+  font-size: 62.5%;
+}
+
 h2 {
   font-size: 3rem;
 }/*# sourceMappingURL=main-style.css.map */
