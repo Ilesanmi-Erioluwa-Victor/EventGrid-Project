@@ -44,6 +44,22 @@
     }
    }
 
+   &--cta {
+    background-color: clrs.color-theme("3");
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1rem;
+    &:hover {
+        background-color: clrs.color-theme("2");
+    }
+   }
+
+  }
+
+  &__hero {
+    
   }
 
 }
