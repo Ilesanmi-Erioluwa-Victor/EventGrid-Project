@@ -9,5 +9,22 @@
   background-size : cover;
   padding-bottom: calc(pad.padding-d-v(l) + pad.padding-d-v(m));
 
-  gap : calc(4rem + 4vw)
+  gap : calc(4rem + 4vw);
+
+  &__nav {
+   width: 100%;
+
+
+   display: flex;
+   flex-wrap: wrap;
+   justify-content : space-between;
+   align-items : center;
+   gap : 2rem;
+
+   &--logo {
+   width: 5rem;
+   }
+
+  }
+
 }
