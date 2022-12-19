@@ -1,0 +1,9 @@
+@use "../general-styles/padding" as pad;
+
+
+@media screen and (max-width: 600px){
+    // -------------------------------Utility class
+    .padd {
+        padding: pad.padding-d-v(mc) pad.padding-d-h(mc);
+    }
+}
