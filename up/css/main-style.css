@@ -77,7 +77,7 @@ input[type=submit] {
 }
 
 .header {
-  background: url("../images/resume.svg"), rgba(51, 44, 44, 0.6);
+  background: url("../images/overlap1.png"), rgba(51, 44, 44, 0.6);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -186,7 +186,7 @@ input[type=submit] {
   }
   .header__nav--links {
     flex-direction: column;
-    width: 30%;
+    width: 40%;
     position: fixed;
     top: 0;
     left: 0;
