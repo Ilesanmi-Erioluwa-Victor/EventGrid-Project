@@ -109,4 +109,29 @@ input[type=submit] {
 }
 .header__nav--cta:hover {
   background-color: hsl(327deg, 97%, 48%);
+}
+.header__hero {
+  display: grid;
+  justify-content: center;
+  gap: 3rem;
+  text-align: center;
+  color: hsl(238deg, 50%, 13%);
+}
+.header__hero--location {
+  font-size: 1.5rem;
+  font-weight: 500;
+  background-color: rgba(245, 247, 250, 0.2);
+  padding: 1rem 3rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  justify-content: center;
+}
+.header__hero--title {
+  font-size: calc(1rem + 2vw);
+  font-weight: 900;
+}
+.header__hero--title span {
+  display: block;
 }/*# sourceMappingURL=main-style.css.map */
