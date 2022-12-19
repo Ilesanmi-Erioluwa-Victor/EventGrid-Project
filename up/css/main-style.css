@@ -48,7 +48,13 @@ textarea {
   grid-column: container-start/container-end;
 }
 
-.header {
+.sec-flex {
   display: flex;
   flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.padd {
+  padding: calc(1rem + 8vh) calc(1rem + 8vw);
 }/*# sourceMappingURL=main-style.css.map */
